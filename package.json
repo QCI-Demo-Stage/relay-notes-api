@@ -1,0 +1,27 @@
+{
+  "name": "relay-notes-api",
+  "version": "1.0.0",
+  "description": "Lightweight Node.js 22 REST service for Relay Notes — sandbox notes API for internal platform validation",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "src/server.js",
+  "scripts": {
+    "install": "npm ci",
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "relay",
+    "notes",
+    "api",
+    "express"
+  ],
+  "license": "UNLICENSED",
+  "private": true
+}
