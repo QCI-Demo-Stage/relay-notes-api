@@ -1,0 +1,17 @@
+{
+  "name": "relay-notes-api",
+  "version": "1.0.0",
+  "description": "Lightweight, deterministic Node.js 22 REST service for notes (sandbox / internal platform validation)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
