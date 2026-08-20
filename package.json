@@ -8,7 +8,7 @@
   },
   "main": "src/server.js",
   "scripts": {
-    "install": "npm ci",
+    "ci": "npm ci",
     "test": "node --test",
     "start": "node src/server.js"
   },
