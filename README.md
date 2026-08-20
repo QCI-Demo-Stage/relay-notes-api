@@ -27,6 +27,7 @@ Notes are keyed by deterministic IDs of the form `00000000-0000-4000-8000-<hex s
 ```bash
 npm install
 npm test   # node:test unit suite (repository + service)
+npm run lint
 ```
 
 ## Requirements

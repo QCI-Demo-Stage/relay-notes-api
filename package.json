@@ -9,9 +9,14 @@
   },
   "scripts": {
     "test": "node --test test/**/*.test.js",
+    "lint": "eslint .",
     "start": "node src/index.js"
   },
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "globals": "^17.11.0"
   }
 }
