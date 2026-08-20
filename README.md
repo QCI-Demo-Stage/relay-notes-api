@@ -20,6 +20,12 @@ Requires **Node.js 22+**.
 npm install
 ```
 
+For a deterministic CI-style install from the lockfile:
+
+```bash
+npm ci
+```
+
 ## Testing
 
 ```bash
